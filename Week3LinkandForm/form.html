@@ -7,8 +7,8 @@
   </head>
   <body>
     <h1>Form elements</h1>
-    <form action="https://www.example.com/" method="get">
-      <label for="Username">Username </label>
+    <form action="https://www.example.com/" method="p">
+      <label for="Username">Username :</label>
       <input
         type="text"
         name="Username"
@@ -18,7 +18,7 @@
         maxlength="30"
       />
       <br />
-      <label for="Email">Email </label>
+      <label for="Email">Email :</label>
       <input
         type="email"
         name="Email"
@@ -28,9 +28,8 @@
         maxlength="30"
         <
       />
-      
-      <br>
-      <label for="password">Password </label>
+      <br >
+      <label for="password">Password :</label>
       <input
         type="password"
         name="password"
@@ -40,6 +39,25 @@
         maxlength="30"
         <
       />
+      <br >
+      <label for="address">Address : </label>
+      <br >
+      <textarea name="address" cols="30" rows="10">
+      3/1 ชุมพร
+    </textarea
+      >
+      <br >
+      <label for="Gender">Gender :</label>
+      <input type="radio" name="Gender" />Male
+      <input type="radio" name="Gender" />Female
+      <input type="radio" name="Gender" />LGBT+
+      <br >
+      <label for="Source">Source :</label>
+      <input type="checkbox" name="Friend" />Friend
+      <input type="checkbox" name="Facebook" />Facebook
+      <input type="checkbox" name="Internet" />Internet
+      <br>
+
       <br />
       <input type="submit" />
     </form>
