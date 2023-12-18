@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Active Learning 3: Form</title>
+  </head>
+  <body>
+    <h1>ลงทะเบียนศิษย์เก่า</h1>
+    <form action="">
+      <label for="ชื่อ-นามสกุล">ชื่อ-นามสกุล :</label>
+      <input
+        type="text"
+        name="ชื่อ-นามสกุล"
+        value=""
+        placeholder="กรุณากรอก ชื่อ-นามสกุล"
+        size="15"
+      />
+      <br />
+      <label for="รหัสนักศึกษา">รหัสนักศึกษา :</label>
+      <input
+        type="text"
+        name="รหัสนักศึกษา"
+        value=""
+        placeholder="กรุณากรอกรหัสนักศึกษา"
+        size="15"
+        maxlength="10"
+      />
+      <br />
+      <label for="เพศ">เพศ :</label>
+      <input type="radio" name="เพศ" />Male
+      <input type="radio" name="เพศ" />Female
+      <input type="radio" name="เพศ" />LGBT+
+      <br />
+      <label for="ปีการศึกษา"></label>
+      <br />
+      <label for="ที่อยู่">ที่อยู่ : </label>
+      <br />
+      <textarea name="address" cols="80" rows="15"> </textarea>
+
+      <br />
+      <label for="Email">Email :</label>
+      <input
+        type="email"
+        name="Email"
+        value=""
+        placeholder="กรุณากรอก Email"
+        size="20"
+        <
+      />
+      <br />
+      <label for="เบอร์โทร">เบอร์โทร :</label>
+      <input
+        type="tel"
+        id="phone"
+        name="เบอร์โทร"
+        pattern="{0-9}"
+        maxlength="10"
+      />
+      <br />
+      <label for="หลักสูตร">หลักสูตร :</label>
+      <select name="dept">
+        <option value="1">IT</option>
+        <option value="2">IS</option>
+      </select>
+      <br />
+      <label for="อาชีพปัจจุบัน">อาชีพปัจจุบัน</label>
+      <input
+        type="text"
+        name="อาชีพปัจจุบัน"
+        placeholder="กรุณากรอกอาชีพปัจจุบัน"
+        size="20"
+      />
+      <br />
+      <label for="สถานที่ทำงาน"
+        >สถานที่ทำงาน (ระบุที่ชื่อบริษัท และที่อยู่)</label
+      >
+      <br />
+      <textarea name="address" cols="80" rows="15"> </textarea>
+      <br>
+      <label for="ประเภทงาน">ประเภทงาน :</label>
+      <select name="dept">
+        <option value="1">Web Developer</option>
+        <option value="2">SA</option>
+        <option value="3">Graphic Design</option>
+        <option value="4">Digital Marketing</option>
+      </select>
+      <br>
+      <label for="Profile">Profile :</label>
+      <input type="file" name="Profile" >
+      <br>
+      <input type="reset" value="ยกเลิก">
+      <input type="submit" value="ลงทะเบียน" />
+    </form>
+  </body>
+</html>
