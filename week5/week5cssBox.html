@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Box Model</title>
+  </head>
+  <style>
+    h1,
+    p,
+    div,
+    ul {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    h1 {
+      background-color: rgb(47, 95, 255);
+      font-size: 50px;
+      width: 370px; /*กำหนดขนาดกล่อง*/
+      padding: 5px; /*กำหนดความห่างของตัวอักศรกับขอบกล่อง*/
+      border: 10px solid rgb(88, 88, 88);
+    }
+    p {
+      background-color: rgb(156, 210, 255);
+      font-size: 25px;
+      padding: 50px;
+      border: 10px solid rgb(88, 88, 88);
+      margin: 20px;
+    }
+    span {
+      background-color: rgb(255, 67, 67);
+      padding: 1px;
+      margin: 2px;
+    }
+    .box1,
+    .box2 {
+      width: 300px;
+      margin-bottom: 15px;
+    }
+    .box1 {
+      background-color: rgb(252, 79, 79);
+      border: 5px solid black;
+    }
+    .box2 {
+      background-color: rgb(79, 252, 85);
+      border: 5px solid blue; /*กำหนดให้ขอบ*/
+      border-radius: 20px; /*กำหนดให้ขอบมนๆ*/
+    }
+    li {
+      display: inline; /*ใช้*/
+      margin-right: 10px;
+    }
+  </style>
+  <body>
+    <h1>CSS Box Model</h1>
+    <p>
+      Lorem <span>psum, dolor</span> sit amet consectetur adipisicing elit.
+      Earum autem, mollitia minima voluptas vitae veniam velit nulla eum!
+      Minima, obcaecati? Earum accusantium quis culpa repellendus sed veniam
+      tempore dignissimos velit?
+    </p>
+    <div class="box1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur beatae
+      ipsum voluptatem laboriosam similique, ex recusandae incidunt alias
+      molestiae quasi aperiam optio inventore, possimus consectetur maxime,
+      nihil delectus quis animi.
+    </div>
+    <div class="box2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis libero hic
+      nisi obcaecati earum error praesentium, odit numquam consectetur, culpa
+      iure! Asperiores at vero eveniet illo ipsam eum doloremque delectus!
+    </div>
+
+    <ul>
+      <li>Box</li>
+      <li>Model</li>
+      <li>CSS</li>
+    </ul>
+  </body>
+</html>
