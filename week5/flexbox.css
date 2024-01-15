@@ -1,0 +1,48 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row; /*จัดรูปแบบ*/
+    /*flex-direction: column; /*จัดรูปแบบ*/
+    width: 90%;
+    border: solid 2px red;
+    justify-content: space-between;
+    
+}
+.col {  
+    border: solid 1px black;
+    width: 30%;
+}
+.container2{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row; /*จัดรูปแบบ*/
+    /*flex-direction: column; /*จัดรูปแบบ*/
+    width: 90%;
+    border: solid 2px red;
+    justify-content: space-between;
+    margin-top: 5px;
+   
+}
+.container3{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row; /*จัดรูปแบบ*/
+    /*flex-direction: column; /*จัดรูปแบบ*/
+    width: 90%;
+    border: solid 2px red;
+    justify-content: space-between;
+    margin-top: 5px;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.col2 {
+    border: solid 1px black;
+    width: 50%;
+    
+}
+.col3  {
+    border: solid 1px black;
+    width: 50%;
+}
+
