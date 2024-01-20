@@ -7,7 +7,7 @@ body {
   /* font-family: "Oswald", sans-serif; */
 }
 .navbar-brand {
-  color: #6b7b81;
+  color: rgb((63,57,64));
 }
  
 .bg-body-tertiary {
@@ -15,17 +15,35 @@ body {
 }
 .myBtn {
   color: white;
-  background-color: #02a4de;
+  background-color: rgb(77,18,29);
 }
 .portfolio {
-  background-color: #ffb703;
+  background-color: rgb(47,43,50);
 }
 .iconStyle {
   display: block;
   text-align: center;
   font-size: 60px;
-  color: #1982c4;
+  color: rgb(77,18,29);
 }
 .headerVSpace {
   padding-top: 40px;
+}
+.container-fluid{
+    color: rgb(234,235,255);
+}
+
+.services{
+    text-align: center;
+    margin-top: 200px;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.box{
+    width: 20%;
+    float: left;
+    margin-top: 50px;
+    margin-right: 5%;
+    
 }

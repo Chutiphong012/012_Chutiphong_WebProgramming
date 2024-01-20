@@ -1,126 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Bootstrap demo</title>
-<link
-href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-rel="stylesheet"
-integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-crossorigin="anonymous"
-/>
-<link rel="stylesheet" href="ex4.css" />
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap 012</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="ex4.css" />
+  </head>
 
-<body>
-<div class="container-fluid">
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-<div class="container-fluid">
-<a class="navbar-brand" href="#">Chutiphong Khaeongmek</a>
-<button
-class="navbar-toggler"
-type="button"
-data-bs-toggle="collapse"
-data-bs-target="#navbarSupportedContent"
-aria-controls="navbarSupportedContent"
-aria-expanded="false"
-aria-label="Toggle navigation"
->
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
-<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-<li class="nav-item">
-<a class="nav-link active" aria-current="page" href="#"
->หน้าแรก</a>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Chutiphong Khaeongmek</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >หน้าแรก</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ประวัติส่วนตัว</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ผลงานเด่น</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ติดต่อเรา</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="row pt-5">
+        <div class="col-4">
+          <h1 class="pt-5">I am your father.</h1>
+          <h2>Arlecchino.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut veniam
+            ab rerum libero recusandae. Maxime, sint? Sit et excepturi iste?
+            Placeat facilis minima commodi delectus doloribus quibusdam iste nam
+            velit?
+          </p>
+          <button type="button" class="btn myBtn">Get to know me</button>
+        </div>
+        <div class="col-8">
+          <img src="../images/a.jpg" class="img-fluid" alt="profile picture" />
+        </div>
+      </div>
+    </div>
 
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">ประวัติส่วนตัว</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">ผลงานเด่น</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">ติดต่อเรา</a>
-</li>
-</ul>
+    <div class="container-fluid">
+      <div class="row portfolio mt-5 headerVSpace">
+        <h2 class="text-center py-3">Web Design portfolio</h2>
+        <div class="col">
+          <i class="bi bi-pc-display-horizontal iconStyle"></i>
+          <h3 class="text-center">School Project</h3>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+            itaque accusantium fuga, maiores voluptatibus, tempora similique
+            provident cumque, vitae sequi doloribus tempore ab? Odio
+            reprehenderit laborum ducimus cumque natus reiciendis?
+          </p>
+        </div>
+
+        <div class="col">
+          <i class="bi bi-phone iconStyle"></i>
+          <h3 class="text-center">Government Project</h3>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+            itaque accusantium fuga, maiores voluptatibus, tempora similique
+            provident cumque, vitae sequi doloribus tempore ab? Odio
+            reprehenderit laborum ducimus cumque natus reiciendis?
+          </p>
+        </div>
+
+        <div class="col">
+          <i class="bi bi-database iconStyle"></i>
+          <h3 class="text-center">Coffee Shop Project</h3>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+            itaque accusantium fuga, maiores voluptatibus, tempora similique
+            provident cumque, vitae sequi doloribus tempore ab? Odio
+            reprehenderit laborum ducimus cumque natus reiciendis?
+          </p>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <div> 
+    <h2>Academic Services</h2>
+    <div class="services">
+      
+      <div class="box">
+        <img
+          src="https://media.istockphoto.com/id/1443560890/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B9%81%E0%B8%99%E0%B8%A7%E0%B8%84%E0%B8%B4%E0%B8%94%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B8%98%E0%B8%B8%E0%B8%A3%E0%B8%81%E0%B8%B4%E0%B8%88%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5-%E0%B9%82%E0%B8%86%E0%B8%A9%E0%B8%93%E0%B8%B2%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C%E0%B8%AD%E0%B8%B5%E0%B9%80%E0%B8%A1%E0%B8%A5%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B9%82%E0%B8%8B%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%A5%E0%B8%A1%E0%B8%B5%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B8%A2-seo-%E0%B8%A7%E0%B8%B4%E0%B8%94%E0%B8%B5%E0%B9%82%E0%B8%AD-sem.jpg?s=2048x2048&w=is&k=20&c=gqiyz-HN-zlXMBAx9z9WRN26soeqdMPlSVjz4t4nzpU="
+          alt=""
+          width="300px"
+        />
+        <h2>Digital Marketing</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio quae
+          ratione a amet laboriosam laborum omnis, neque facilis? Vel nisi
+          consequatur aliquid excepturi odit incidunt, quisquam iste. Delectus,
+          autem corporis.
+        </p>
+      </div>
+      <div class="box">
+        <img
+          src="https://media.istockphoto.com/id/1309831153/th/%E0%B9%80%E0%B8%A7%E0%B8%84%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C/%E0%B9%81%E0%B8%94%E0%B8%8A%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%AD%E0%B8%94%E0%B9%80%E0%B8%A2%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A1%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%96%E0%B8%B8%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C%E0%B9%83%E0%B8%94-%E0%B9%86-%E0%B9%80%E0%B8%97%E0%B8%A1%E0%B9%80%E0%B8%9E%E0%B8%A5%E0%B8%95%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B9%82%E0%B8%9F%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B8%9F%E0%B8%B4%E0%B8%81%E0%B8%98%E0%B8%B8%E0%B8%A3%E0%B8%81%E0%B8%B4%E0%B8%88-%E0%B8%A0.jpg?s=2048x2048&w=is&k=20&c=7VJLKcekcJI8emT6qiIAJFbdz4Icn6d1YZCU0HQXHrA="
+          alt=""
+          width="300px"
+        />
+        <h2>Data Analytic</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+          expedita doloremque, molestiae est magnam itaque aliquam? Nostrum qui
+          ipsa provident distinctio fugiat impedit minus, error unde, eum soluta
+          ipsum sint?
+        </p>
+      </div>
+      <div class="box">
+        <img
+          src="https://media.istockphoto.com/id/1425235289/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A7%E0%B8%B4%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%AB%E0%B9%8C%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%97%E0%B9%8D%E0%B8%B2%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%9A%E0%B8%99%E0%B9%81%E0%B8%94%E0%B8%8A%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%AB%E0%B9%8C%E0%B8%98%E0%B8%B8%E0%B8%A3%E0%B8%81%E0%B8%B4%E0%B8%88%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B9%81%E0%B8%9C%E0%B8%99%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4-%E0%B9%80%E0%B8%A1%E0%B8%95%E0%B8%A3%E0%B8%B4%E0%B8%81-%E0%B9%81%E0%B8%A5%E0%B8%B0-kpi-%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A7%E0%B8%B4%E0%B9%80.jpg?s=612x612&w=0&k=20&c=t8zMgFVhN0IEqmZgK9D-lKVxZamxYzOdc-6ATEMYNH0="
+          alt=""
+          width="300px"
+        />
+        <h2>Business Intelligence</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur
+          doloribus voluptas sapiente quia, ipsum expedita minima atque nulla
+          enim ipsam rerum earum debitis deserunt, vel, perspiciatis laudantium
+          voluptate fugiat? Sit!
+        </p>
+      </div>
+      <div class="box">
+        <img
+          src="https://media.istockphoto.com/id/1426549627/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B9%83%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%88%E0%B8%AD%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%A3%E0%B8%AB%E0%B8%B1%E0%B8%AA%E0%B8%8B%E0%B8%AD%E0%B8%9F%E0%B8%95%E0%B9%8C%E0%B9%81%E0%B8%A7%E0%B8%A3%E0%B9%8C.jpg?s=612x612&w=0&k=20&c=96i7XetwCsT1Edf_x9mm5B6UJIvlFWK8o1IbpFetFWo="
+          alt=""
+          width="300px"
+        />
+        <h2>Software Development</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+          officiis alias, nihil tenetur sequi cum quasi eveniet sapiente eos id
+          quidem veniam blanditiis quae rem reprehenderit explicabo et? Cum,
+          eligendi.
+        </p>
+      </div>
+    </div>
 </div>
-</div>
-</nav>
-</div>
-<div class="container">
-<div class="row pt-5">
-<div class="col-4">
-<h1 class="pt-5">i am your father.</h1>
-<h2>Arlecchino.</h2>
-<p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut veniam
-ab rerum libero recusandae. Maxime, sint? Sit et excepturi iste?
-Placeat facilis minima commodi delectus doloribus quibusdam iste nam
-velit?
-</p>
-<button type="button" class="btn myBtn">Get to know me</button>
-</div>
-<div class="col-8">
-<img
-src="images/profile.jpg"
-class="img-fluid"
-alt="profile picture"
-/>
-</div>
-</div>
-</div>
-<div class="container-fluid">
-<div class="row portfolio mt-5 headerVSpace">
-<h2 class="text-center py-3">Web Design portfolio</h2>
-<div class="col">
-<i class="bi bi-pc-display-horizontal iconStyle"></i>
-<h3 class="text-center">School Project</h3>
-<p class="text-center">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-itaque accusantium fuga, maiores voluptatibus, tempora similique
-provident cumque, vitae sequi doloribus tempore ab? Odio
-reprehenderit laborum ducimus cumque natus reiciendis?
-</p>
-</div>
-<div class="col">
-<i class="bi bi-phone iconStyle"></i>
-<h3 class="text-center">Government Project</h3>
-<p class="text-center">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-itaque accusantium fuga, maiores voluptatibus, tempora similique
-provident cumque, vitae sequi doloribus tempore ab? Odio
-reprehenderit laborum ducimus cumque natus reiciendis?
-</p>
-</div>
-<div class="col">
-<i class="bi bi-database iconStyle"></i>
-<h3 class="text-center">Coffee Shop Project</h3>
-<p class="text-center">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-itaque accusantium fuga, maiores voluptatibus, tempora similique
-provident cumque, vitae sequi doloribus tempore ab? Odio
-reprehenderit laborum ducimus cumque natus reiciendis?
-</p>
-</div>
-</div>
-</div>
-<script
-src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-crossorigin="anonymous"
-></script>
-<script
-src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-crossorigin="anonymous"
-></script>
-<script
-src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-crossorigin="anonymous"
-></script>
-</body>
+  </body>
 </html>
