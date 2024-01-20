@@ -7,14 +7,15 @@ body {
   /* font-family: "Oswald", sans-serif; */
 }
 .navbar-brand {
-  color: rgb((63,57,64));
+  color: rgb(77,18,29);
 }
- 
+
 .bg-body-tertiary {
-  background-color: white !important;
+  background-color: white!important;
+
 }
 .myBtn {
-  color: white;
+  color: rgb(234,235,255);
   background-color: rgb(77,18,29);
 }
 .portfolio {
@@ -33,6 +34,7 @@ body {
 .container-fluid{
     color: rgb(234,235,255);
 }
+
 .Title-service{
   display: flex;
   margin-top: 100px;
@@ -41,6 +43,7 @@ body {
 }
 .services{
    display: flex;
+   flex-wrap: wrap;
    justify-content: center;
    align-items: center;
    gap: 30px;
@@ -53,11 +56,13 @@ body {
   align-items: center;
   justify-content: center;
   width: 20%;
+  
 }
 .paragraph{
   margin-left: 50px;
   width: 21em;
   text-align: start;
+  
 }
 a{
   text-decoration: none;
@@ -65,7 +70,6 @@ a{
 .footer-section{
   background-color: rgb(47,43,50) ;
   display: flex;
-  
   gap: 100px;  
 }
 .black{
