@@ -28,22 +28,82 @@ body {
 }
 .headerVSpace {
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 .container-fluid{
     color: rgb(234,235,255);
 }
-
+.Title-service{
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: center;
+}
 .services{
-    text-align: center;
-    margin-top: 200px;
-    display: flex;
-justify-content: center;
-align-items: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   text-align: center;
+   margin-bottom: 50px;
 }
 .box{
-    width: 20%;
-    float: left;
-    margin-top: 50px;
-    margin-right: 5%;
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+.paragraph{
+  margin-left: 50px;
+  width: 21em;
+  text-align: start;
+}
+a{
+  text-decoration: none;
+}
+.footer-section{
+  background-color: rgb(47,43,50) ;
+  display: flex;
+  
+  gap: 100px;  
+}
+.black{
+  color: rgb(234,235,255);
+}
+.menu-alignment{
+ margin-left: 200px;
+  display: flex;
+  gap: 30px;
+
+}
+.email-form{
+  margin-top: 24px;
+  margin-left: 70px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(234,235,255);
+}
+.input-box{
+  display: flex;
+  padding-left: 10px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid rgb(234,235,255);
+  width: 250px;
+}
+.footer-menu{
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 24px;
+  margin-left: 270px;
+  gap: 30px;
 }
