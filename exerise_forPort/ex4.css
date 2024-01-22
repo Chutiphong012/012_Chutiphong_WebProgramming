@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Oswald&display=swap");
+ 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+ 
+body {
+  font-family: "Kanit", sans-serif;
+  /* font-family: "Oswald", sans-serif; */
+}
+.navbar-brand {
+  color: rgb(77,18,29);
+}
+
+.bg-body-tertiary {
+  background-color: white!important;
+
+}
+.myBtn {
+  color: rgb(234,235,255);
+  background-color: rgb(77,18,29);
+}
+.portfolio {
+  background-color: rgb(47,43,50);
+}
+.iconStyle {
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  color: rgb(77,18,29);
+}
+.headerVSpace {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.container-fluid{
+    color: rgb(234,235,255);
+}
+
+.Title-service{
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+.services{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   text-align: center;
+   margin-bottom: 50px;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  
+}
+.paragraph{
+  margin-left: 50px;
+  width: 21em;
+  text-align: start;
+  
+}
+a{
+  text-decoration: none;
+}
+.footer-section{
+  background-color: rgb(47,43,50) ;
+  display: flex;
+  gap: 100px;  
+}
+.black{
+  color: rgb(234,235,255);
+}
+.menu-alignment{
+ margin-left: 200px;
+  display: flex;
+  gap: 30px;
+
+}
+.email-form{
+  margin-top: 24px;
+  margin-left: 70px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(234,235,255);
+}
+.input-box{
+  display: flex;
+  padding-left: 10px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid rgb(234,235,255);
+  width: 250px;
+}
+.footer-menu{
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 24px;
+  margin-left: 600px;
+  gap: 20px;
+}
