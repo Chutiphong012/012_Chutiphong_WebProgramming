@@ -1,0 +1,15 @@
+.bluebackground {
+    background-color: aqua;
+  }
+  .headingNew {
+    font-size: 100px;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .headingNew {
+      /* display: none; */
+      font-size: 64px;
+      /* color: red; */
+    }
+  }
