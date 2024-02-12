@@ -1,0 +1,7 @@
+.paddingtop {
+    padding-top: 100px;
+}
+.error {
+    display: none;
+    color: red;
+}
