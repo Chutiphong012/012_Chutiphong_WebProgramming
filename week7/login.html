@@ -12,45 +12,40 @@
     />
     <link rel="stylesheet" href="login.css" />
     <script>
-       document.addEventListener("DOMContentLoaded", function () {
-    document.querySelector("#loginfrom").addEventListener("submit", (event) => {
-        let username = document.querySelector("#username").value;
-        let password = document.querySelector("#password").value;
         
-        let checkUsername = false;
-        let checkPassword = false;
-
-        let errorUsername = document.querySelector("#errorUsername .error");
-        let errorPassword = document.querySelector("#errorPassword .error");
-
-        alert("len username=" + username.length);
-        alert("len password=" + password.length);
-
-        if (username.length >= 8) {
-            checkUsername = true;
-            errorUsername.innerText = ""; 
-        } else {
-            errorUsername.innerText = "Username must be at least 8 characters"; // แสดงข้อความแจ้งเตือนใหม่
-        }
-        
-        if (password.length >= 8) {
-            checkPassword = true;
-            errorPassword.innerText = ""; 
-        } else {
-            errorPassword.innerText = "Password must be at least 8 characters"; // แสดงข้อความแจ้งเตือนใหม่
-        }
-
-        if (checkUsername && checkPassword) {
-            return true;
-        } else {
-            event.preventDefault();
-            return false;
-        }
-    });
-});
-
-
-    </script>
+        document.addEventListener("DOMContentLoaded", function () {
+          document
+            .querySelector("#loginForm")
+            .addEventListener("submit", (event) => {
+              
+              let username = document.querySelector("#username").value;
+              let password = document.querySelector("#password").value;
+              
+              let checkUsername = false;
+              let checkPassword = false;
+   
+              alert("len username=" + username.length);
+              alert("len password=" + password.length);
+   
+              
+              if (username.length >= 8) {
+                checkUsername = true;
+                
+              }
+              
+              if (password.length >= 8) {
+                checkPassword = true;
+              }
+   
+              if (checkUsername && checkPassword) {
+                return true;
+              } else {
+                event.preventDefault();
+                return false;
+              }
+            });
+        });
+  </script>
     
   </head>
   <body>
@@ -66,7 +61,7 @@
 
         <div class="col-lg-6">
           <h1 class="mb-5">Login</h1>
-          <form id="loginfrom" method="post" action="http://www.example.com"> 
+          <form id="loginFrom" method="post" action="http://www.example.com"> 
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label"
                 >Username</label
@@ -75,6 +70,7 @@
                 type="text"
                 class="form-control"
                 id="username"
+                name="username"
                 aria-describedby="emailHelp"
               />
               <div id="errorUsername" class="form-text error">
@@ -95,6 +91,8 @@
                 type="checkbox"
                 class="form-check-input"
                 id="exampleCheck1"
+                name="rememberMe"
+                
               />
               <label class="form-check-label" for="exampleCheck1"
                 >Remember Me</label
