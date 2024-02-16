@@ -24,7 +24,7 @@ a {
   display: flex;
   justify-content: end;
   padding: 0 16px;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.3);
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
 }
@@ -79,7 +79,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  padding: 8rem 4rem;
+  padding: 16rem 4rem;
   /* border: 1px solid red; */
 }
 
@@ -110,6 +110,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 2rem ;
+  font-size: 23px;
   /* border: 1px solid green; */
   list-style: none;
   color: white;
@@ -127,7 +128,9 @@ a {
 #exercise h1 {
   color: white;
 }
-
+#exercise a {
+  color: black;
+}
 .exercise {
   display: grid;
   grid-template-columns: 1fr;
@@ -144,12 +147,43 @@ a {
   justify-content: center;
   padding: 0;
   gap: 2rem;
+ 
 }
 
 .exercise-right {
   display: flex;
   justify-content: center;
+  
 }
+
+#contact{
+  padding-bottom: 4rem;
+
+}
+.contact {
+ color: white;
+ padding-top: 600px;
+ 
+ 
+}
+.contact a {
+  color: white;
+  
+ }
+ .contact svg {
+  margin-right: 1.8rem;
+  
+ }
+.contact-left {
+  text-align: start;
+  padding-left: 5rem;
+}
+
+.contact-right {
+  text-align: end;
+  padding-right: 5rem;
+}
+
 
 @media screen and (min-width: 1024px) {
   .about-layout {
