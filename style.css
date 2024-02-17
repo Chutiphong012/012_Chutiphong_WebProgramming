@@ -52,7 +52,7 @@ a {
 
 #home {
   min-height: 100dvh;
-border: 1px solid red;
+
 }
 
 .title1{
@@ -74,17 +74,16 @@ border: 1px solid red;
 .About{
   text-align: center;
   color: white;
-  
 }
 
 #about {
-  border: 1px solid red;
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  margin-top: 1000px;
-  
+  padding: 8rem 4rem;
+  margin-top: 600px;
+  /* border: 1px solid red; */
 }
 
 #about h1 {
@@ -114,10 +113,10 @@ border: 1px solid red;
   display: flex;
   flex-direction: column;
   gap: 2rem ;
-  font-size: 23px;
   /* border: 1px solid green; */
   list-style: none;
   color: white;
+  font-size: 28px;
 }
 
 #exercise {
