@@ -121,6 +121,31 @@ a {
 }
 
 
+.typewriter h5 {
+  color: #fff;
+  font-family: cursive;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .10em solid rgb(219, 29, 29); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
 /**/
 
 
@@ -137,7 +162,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  padding: 8rem 4rem;
+  padding: 10rem 4rem;
   margin-top: 600px;
   background-color: rgba(255, 255, 255, 0.08);
   -webkit-backdrop-filter: blur(5px);
