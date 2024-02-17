@@ -24,9 +24,9 @@ a {
   display: flex;
   justify-content: end;
   padding: 0 16px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
   -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(4px);
 }
 
 .nav-menu {
@@ -39,7 +39,7 @@ a {
 }
 
 .nav-menu a {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .link{
@@ -52,7 +52,7 @@ a {
 
 #home {
   min-height: 100dvh;
-
+border: 1px solid red;
 }
 
 .title1{
@@ -74,15 +74,16 @@ a {
 .About{
   text-align: center;
   color: white;
+  
 }
 
 #about {
+  border: 1px solid red;
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  padding: 16rem 4rem;
-  margin-top: 13rem;
+  margin-top: 1000px;
   
 }
 
@@ -121,11 +122,11 @@ a {
 
 #exercise {
   min-height: 100dvh;
-  padding: 8rem 4rem;
-  /* border: 1px solid purple; */
+  padding: 500px 4rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  
 }
 
 #exercise h1 {
@@ -172,8 +173,8 @@ a {
  padding-top: 600px; 
 }
 .row {
-  
-  background-color: rgba(255, 255, 255, 0.3);
+
+  background-color: rgba(255, 255, 255, 0.06);
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   
