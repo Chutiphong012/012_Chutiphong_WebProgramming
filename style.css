@@ -61,12 +61,14 @@ a {
   padding-top: 5rem;
   padding-left: 1rem;
   color: white;
+ 
 }
 .title2{
   font-size: 25px;
   padding-top: 2rem;
   padding-left: 1rem;
   color: white;
+ 
 }
 
 .About{
@@ -80,7 +82,8 @@ a {
   flex-direction: column;
   gap: 3rem;
   padding: 16rem 4rem;
-  /* border: 1px solid red; */
+  margin-top: 13rem;
+  
 }
 
 #about h1 {
@@ -170,6 +173,12 @@ a {
   color: white;
   
  }
+ .contact ul {
+  list-style: none;
+  font-size: 25px;
+  width: 300px;
+  
+ }
  .contact svg {
   margin-right: 1.8rem;
   
@@ -177,11 +186,13 @@ a {
 .contact-left {
   text-align: start;
   padding-left: 5rem;
+  padding-bottom: 10rem;
 }
 
 .contact-right {
-  text-align: end;
-  padding-right: 5rem;
+  text-align: start;
+  padding-left: 30rem;
+  
 }
 
 
@@ -206,5 +217,13 @@ a {
 
   .exercise-left {
     padding: 0 4rem;
+  }
+  .contact {  
+    text-align: start;
+    
+   }
+   .contact-right {
+    
+    
   }
 }
