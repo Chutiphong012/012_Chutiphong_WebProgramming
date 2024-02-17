@@ -4,6 +4,7 @@ body {
   background-position: center; 
   background-repeat: no-repeat; 
   scroll-behavior: smooth;
+  font-family: Cursive;
 }
 
 * {
@@ -61,15 +62,70 @@ a {
   padding-top: 5rem;
   padding-left: 1rem;
   color: white;
- 
+
+  
 }
 .title2{
   font-size: 25px;
   padding-top: 2rem;
   padding-left: 1rem;
   color: white;
+  text-transform: uppercase;
  
 }
+/**/
+
+
+.neon {
+  animation: neonAnim 2s alternate-reverse infinite;
+  color: #f1f4f7;
+  font-family: Cursive;
+  font-size: 80px;
+}
+@keyframes neonAnim {
+  from {
+      text-shadow:
+        0 0 10px rgba(241, 244, 247, .7),
+        0 0 40px rgba(241, 244, 247, .7),
+        0 0 100px rgba(241, 244, 247, .7);
+    }
+    to {
+      text-shadow:
+        0 0 5px rgba(241, 244, 247, .7),
+        0 0 20px rgba(241, 244, 247, .7),
+        0 0 60px rgba(241, 244, 247, .7);
+    }
+}
+
+
+
+.neon1 {
+  animation: neonAnim 2s alternate-reverse infinite;
+  color: #F1F4F7;
+  font-family: Cursive;
+  font-size: 25px;
+}
+@keyframes neonAnim {
+  from {
+      text-shadow:
+        0 0 10px rgba(241, 244, 247, .7),
+        0 0 40px rgba(241, 244, 247, .7),
+        0 0 100px rgba(241, 244, 247, .7);
+    }
+    to {
+      text-shadow:
+        0 0 5px rgba(241, 244, 247, .7),
+        0 0 20px rgba(241, 244, 247, .7),
+        0 0 60px rgba(241, 244, 247, .7);
+    }
+}
+
+
+/**/
+
+
+
+
 
 .About{
   text-align: center;
