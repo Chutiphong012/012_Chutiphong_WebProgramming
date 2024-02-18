@@ -100,14 +100,19 @@ a {
     }
 }
 
-
-
 .neon1 {
   animation: neonAnim 2s alternate-reverse infinite;
   color: #F1F4F7;
   font-family: "Itim", cursive;
   font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 2rem 0;
 }
+
 @keyframes neonAnim {
   from {
       text-shadow:
@@ -239,7 +244,6 @@ a {
   justify-content: center;
   padding: 0;
   gap: 2rem;
- 
 }
 
 .exercise-right {
@@ -261,8 +265,10 @@ a {
 
 .contact {
   color: white;
-  padding-top: 600px; 
+  display: grid;
+  grid-template-columns: 1fr;
 }
+
 .row {
   background-color: rgba(255, 255, 255, 0.06);
   -webkit-backdrop-filter: blur(5px);
@@ -285,13 +291,21 @@ a {
 }
 
 .contact-left {
-  text-align: start;
+  text-align: center;
 }
 
 .contact-right {
-  text-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.contact-right svg {
+  margin: 0 auto;
+}
+.contact-right a {
+  margin: 0 auto;
+}
 
 @media screen and (min-width: 1024px) {
   .about-layout {
@@ -316,11 +330,29 @@ a {
     padding: 0 4rem;
   }
   .contact {  
-    
-   }
-   .contact-right {
-    
-    
+    grid-template-columns: 1fr 1fr;
+    padding: 6rem;
+  }
+  .contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 2rem;
+  }
+  .contact-left .neon1 {
+    margin: 0;
+  }
+  .contact-right {
+    display: flex;
+    justify-content: end;
+    align-items: end;
   }
   
+  .contact-right .neon1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
