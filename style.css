@@ -5,7 +5,7 @@ body {
   background-position: center; 
   background-repeat: no-repeat; 
   scroll-behavior: smooth;
-  font-family: "Protest Riot", sans-serif;
+  font-family: "Itim", cursive;
 }
 
 * {
@@ -68,8 +68,8 @@ a {
   
 }
 .title2{
-  font-size: 20px;
-  padding-top: 2rem;
+  font-size: 25px;
+  padding-top: 5rem;
   padding-left: 1rem;
   color: white;
   text-transform: uppercase;
@@ -82,7 +82,7 @@ a {
 .neon {
   animation: neonAnim 2s alternate-reverse infinite;
   color: #f1f4f7;
-  font-family: "Protest Riot", sans-serif;
+  font-family: "Itim", cursive;
   font-size: 80px;
 }
 @keyframes neonAnim {
@@ -105,7 +105,7 @@ a {
 .neon1 {
   animation: neonAnim 2s alternate-reverse infinite;
   color: #F1F4F7;
-  font-family: "Protest Riot", sans-serif;
+  font-family: "Itim", cursive;
   font-size: 25px;
 }
 @keyframes neonAnim {
@@ -127,7 +127,7 @@ a {
 /*type animetion*/
 .typewriter h5 {
   color: #fff;
-  font-family: "Protest Riot", sans-serif;
+  font-family: "Itim", cursive;
   overflow: hidden; 
   border-right: .10em solid rgb(219, 29, 29); 
   white-space: nowrap; 
