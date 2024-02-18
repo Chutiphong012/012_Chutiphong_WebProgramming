@@ -1,10 +1,3 @@
-.sriracha-regular {
-  font-family: "Sriracha", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-
 
 body {
   background-image: url('https://images.unsplash.com/photo-1572885972991-8eece633dae8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
@@ -12,7 +5,7 @@ body {
   background-position: center; 
   background-repeat: no-repeat; 
   scroll-behavior: smooth;
-  font-family: "Sriracha", cursive;
+  font-family: "Protest Riot", sans-serif;
 }
 
 * {
@@ -89,7 +82,7 @@ a {
 .neon {
   animation: neonAnim 2s alternate-reverse infinite;
   color: #f1f4f7;
-  font-family: "Sriracha", cursive;
+  font-family: "Protest Riot", sans-serif;
   font-size: 80px;
 }
 @keyframes neonAnim {
@@ -112,7 +105,7 @@ a {
 .neon1 {
   animation: neonAnim 2s alternate-reverse infinite;
   color: #F1F4F7;
-  font-family: "Sriracha", cursive;
+  font-family: "Protest Riot", sans-serif;
   font-size: 25px;
 }
 @keyframes neonAnim {
@@ -134,7 +127,7 @@ a {
 /*type animetion*/
 .typewriter h5 {
   color: #fff;
-  font-family: "Sriracha", cursive;
+  font-family: "Protest Riot", sans-serif;
   overflow: hidden; 
   border-right: .10em solid rgb(219, 29, 29); 
   white-space: nowrap; 
