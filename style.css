@@ -150,8 +150,6 @@ a {
 }
 
 
-
-
 /*type animetion*/
 
 
@@ -251,47 +249,46 @@ a {
 
 #contact{
   padding-bottom: 4rem;
-  
+  display: grid;
+  grid-template-columns: 1fr;
 }
+
 #contact h1{
   font-size: 60px;
   padding-top: 2rem;
 }
+
 .contact {
- color: white;
- padding-top: 600px; 
+  color: white;
+  padding-top: 600px; 
 }
 .row {
-
   background-color: rgba(255, 255, 255, 0.06);
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
-  
- }
+}
+
 .contact a {
-  color: white;
-  
- }
- .contact ul {
+  color: white;  
+}
+
+.contact ul {
   list-style: none;
   font-size: 25px;
   width: 300px;
   
- }
- .contact svg {
-  margin-right: 1.8rem;
-  
- }
+}
+
+.contact svg {
+  margin-right: 1.8rem;  
+}
+
 .contact-left {
   text-align: start;
-  padding-left: 5rem;
-  padding-bottom: 10rem;
 }
 
 .contact-right {
   text-align: start;
-  padding-left: 30rem;
-  
 }
 
 
