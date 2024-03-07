@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  .Navmenu{
+display: flex;
+justify-content: center;
+gap: 3rem;
+padding-top: 3rem;
+    
+  }
