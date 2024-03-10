@@ -9,18 +9,32 @@
     font-style: normal;
   }
   /*navbar*/
-#Head {
-    font-size: 35px;
+  .logo {
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+  .navbar-brand {
+    font-size: 2rem;
     font-weight: bold;
-}
+  }
 
-#logo{
-   margin-left: 4rem;
-}
-.nav-item {
-    border: solid red 1px;
-}
+  .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-right: 20px;
+  }
 
+  .dropdown-menu {
+    min-width: 150px;
+  }
+
+  .dropdown-menu a {
+    font-size: 1rem;
+  }
+
+  .ml-auto {
+    margin-left: auto !important;
+  }
+  
 /*navbar*/
 
 /*title1*/
