@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /*navbar*/
+#Head {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#logo{
+   margin-left: 4rem;
+}
+.nav-item {
+    border: solid red 1px;
+}
+
+/*navbar*/
+
+/*title1*/
+.Title {
+    height: 850px;
+    background-image: url('img/pic_t_04.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title1 {
+    background-color: rgba(255,243,227,255);
+    border-radius: 10px;
+    height: 500px;
+    width: 850px;
+    margin-left: auto;
+    margin-right: 5rem;
+    padding-top: 4rem;
+    padding-left: 2rem;
+}
+#text{
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(184,142,47,255);
+}
+.buy-now-btn {
+    background-color: rgba(184, 142, 47, 1);
+    color: white; 
+    border: none; 
+    padding: 20px 40px; 
+    border-radius: 4px; 
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.buy-now-btn:hover {
+    background-color: rgba(154, 112, 27, 1);
+}
+
+/*title1*/
+
+/*title2*/
+#headtitle2{
+    font-weight: bold;
+}
+.Title2{
+    text-align: center;
+    padding-top: 5rem;
+    
+}
+
+.Title2 h5{
+  padding-bottom: 2rem;
+}
+.Title2 h2{
+    padding-top: 1rem;
+  }
+.Title2 img {
+    width: 80%;
+    border-radius: 15px;
+    
+}
+
+.imgtitle{
+    display: flex;
+    justify-content: center;
+}
+
+
+    
+
+
+
+
+
+
+
+/*title2*/
