@@ -1,0 +1,87 @@
+html,
+body {
+  height: 100%;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.fw-normal {
+  font-size: 20px;
+}
+
+.text-decoration-none{
+  font-weight: bold;
+  font-size: 30px;
+
+}
+
+
+.ex img,
+.ex a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ex a{
+  color: black;
+}
+
+.btn{
+  background-color: #9E896A
+}
+
+.iconStyle {
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  color: black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.aroma{
+  font-size: 28px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
